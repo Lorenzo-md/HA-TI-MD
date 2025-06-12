@@ -1,0 +1,241 @@
+
+    "name": "HAÏTI-MD",
+    "description": "WhatsApp bot made By 𝘿𝘽𝙋🌹✮͢≛⃝𝙇𝙊𝙍𝙀𝙉𝙕O",
+    "logo": "your url bot",
+    "keywords": ["HAÏTI-MD"],
+    "success_url": "/", 
+
+    "tack": "container",
+   "env": {
+   "SESSION_ID" {
+    "description": "put the session-id here.",
+    "required": true,
+    "value": ""
+  },
+
+  "STICKERS_NAME": {
+    "description": type your sticker pack name 
+    "required": false,
+    "value": "LORENZO-XM"
+  },
+
+  "PREFIX": {
+   "description": "paste your bot prefix note!Don't apply null"
+   "required": false,
+   "value": "-" 
+ },
+
+  "MODE": {
+  "description": "select your bot work type public-private-int"
+   "required": false,
+   "value": "public" 
+},
+
+  "ALWAYS_ONLINE": {
+    "description": "Make it true if want always online.",
+    "required": false,
+    "value": "false"
+},
+
+  "AUTO_VOICE": {
+  "description": "Make it true if want automatic voice reply.",
+  "required": false,
+  "value": "false"
+},
+
+  "AUTO_REPLY": {
+  "description": "Make it true if you want automatic reply.",
+  "required": false,
+  "value": "false"
+},
+
+ "AUTO_STICKER": {
+  "description": "Make it true if you want automatic sticker.",
+  "required": false,
+  "value": "false"
+},
+
+ "AUTO_STATUS_SEEN": {
+  "description": "Make it true for automatic status seen.",
+  "required": true,
+  "value": "true"
+},
+
+```json
+"AUTO_STATUS_REACT": {
+  "description": "Make it true for automatic status reaction on view.",
+  "required": true,
+  "value": "true"
+},
+
+"AUTO_STATUS_REPLY": {
+  "description": "Make it true for auto reply msg on status seen.",
+  "required": true,
+  "value": "false"
+},
+
+"AUTO_STATUS_MSG": {
+  "description": "Type custom message on status reply.",
+  "required": true,
+  "value": "SEEN YOUR STATUS BY HAÏTI-MD"
+},
+
+"OWNER_NAME": {
+  "description": "Type Bot Owner Name.",
+  "required": false,
+  "value": "𝘿𝘽𝙋🌹✮͢≛⃝𝙇𝙊𝙍𝙀𝙉𝙕O"
+},
+
+"OWNER_NUMBER": {
+  "description": "put the owner number for bot.",
+  "required": false,
+  "value": "554xxxxxxx"
+}, 
+
+"BOT_NAME": {
+  "description": type here the bot name.",
+  "required": false,
+  "value": "HAÏTI-MD"
+},
+
+"ANTI_LINK_KICK": {
+  "description": "Make it true if you want bot auto remove link users.",
+  "required": true,
+  "value": "false"
+},
+
+"ANTI_BAD": {
+  "description": "Make it true if you want bot auto delete bad words.",
+  "required": false,
+  "value": "false"
+},
+
+"MENTION_REPLY": {
+  "description": "Make it true if want mention reply by bot.",
+  "required": false,
+  "value": "false"
+},
+
+"MENU_IMAGE_URL": {
+  "description": "add url for mention reply and menu image.",
+  "required": false,
+  "value": "https://files.catbox.moe/82b8gr.jpg"
+},
+
+"DESCRIPTION": {
+  "description": "add caption for menu and other.",
+  "required": false,
+  "value": "→ 𝙱𝙾𝚃𝙳𝙴𝙼𝙾 𝙱𝚈 𝙸𝙽𝙲𝙾𝙽𝙽𝚄"
+},
+
+"DELETE_LINKS": {
+  "description": "remove links from group automatically.",
+  "required": false,
+  "value": "false"
+}
+
+
+"ANTI_LINK_KICK": {
+  "description": "Make it true if you want bot auto remove link users.",
+  "required": true,
+  "value": "false"
+},
+
+"ANTI_BAD": {
+  "description": "Make it true if you want bot auto delete bad words.",
+  "required": false,
+  "value": "false"
+},
+
+"MENTION_REPLY": {
+  "description": "Make it true if want mention reply by bot.",
+  "required": false,
+  "value": "false"
+},
+
+"MENU_IMAGE_URL": {
+  "description": "add url for mention reply and menu image.",
+  "required": false,
+  "value": "url"
+},
+
+"DESCRIPTION": {
+  "description": "add caption for menu and other.",
+  "required": false,
+  "value": "*MADE BY 𝘿𝘽𝙋🌹✮͢≛⃝𝙇𝙊𝙍𝙀𝙉𝙕O"
+},
+
+"DELETE_LINKS": {
+  "description": "remove links from group automatically.",
+  "required": false,
+  "value": "false"
+},
+
+"DELETE_LINKS": {
+  "description": "remove links from group automatically.",
+  "required": false,
+  "value": "false"
+},
+
+"AUTO_RECORDING": {
+  "description": "Make it true if you want automatic recording status.",
+  "required": false,
+  "value": "false"
+},
+
+"AUTO_TYPING": {
+  "description": "Make it true if you want automatic typing status.",
+  "required": false,
+  "value": "false"
+},
+
+"AUTO_REACT": {
+  "description": "Make it true if you want bot to auto react.",
+  "required": false,
+  "value": "false"
+},
+
+"CUSTOM_REACT": {
+  "description": "Make it true if you want custom emoji reactions.",
+  "required": false,
+  "value": "false"
+},
+
+"CUSTOM_REACT_EMOJIS": {
+  "description": "put here custom react react emojis.",
+  "required": false,
+  "value": "❤️🧡💛💚💙💜🖤🤍🤎💖"
+},
+
+"ANTI_DEL_PATH": {
+  "description": "change it to -same- if you want to restore deleted msg.",
+  "required": false,
+  "value": "log"
+},
+
+"ADMIN_EVENTS": {
+  "description": "make it true if want know who promote or demote.",
+  "required": false,
+  "value": "false"
+},
+
+"WELCOME": {
+  "description": "make it true if want goodbye and welcome msg.",
+  "required": false,
+  "value": "false"
+},
+
+"READ_MESSAGE": {
+  "description": "Make it true if you want bot read your messages.",
+  "required": false,
+  "value": "false"
+},
+
+"buildpacks": [
+  {
+    "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+  }
+],
+"stack": "heroku-24"
+```
+
