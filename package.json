@@ -4,7 +4,7 @@
     "description": "A WhatsApp bot created By 𝘿𝘽𝙋🌹✮͢≛⃝𝙇𝙊𝙍𝙀𝙉𝙕O",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --HAÏTI-MD",
+      "start": "pm2 start index.js --deep-monitoring --attach --name HAÏTI-MD",
       "stop": "pm2 stop HAÏTI-MD",
      "restart": "pm2 restart HAÏTI-MD"
     },
